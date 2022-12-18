@@ -1,0 +1,204 @@
+{
+  "Expert":[
+	{
+	  "id": 1,
+	  "Name": "DR. Isma Masood",
+	  "Email": "ismamasood@szabist-isb.pk",
+	  "Qualification": "Software Engineering, Computer Science",
+	  "ResearchArea": "Computer Based Learning, Quality in Higher Education",
+	  "ProffessorAt": "SZABIST",
+	  "Location": "Islamabad",
+	  "image" : "https://www.pngitem.com/pimgs/m/137-1370168_professional-clipart-female-avatar-circle-hd-png-download.png"
+	},
+	{
+	  "id": 2,
+	  "Name": "DR. Saima Jawad",
+	  "Email": "saima@bahria.pk",
+	  "Qualification": "Computer Science, System Engineering",
+	  "ResearchArea": "Computer Based Learning, Quality in Higher Education",
+	  "ProffessorAt": "Bahria University",
+	  "Location": "Islamabad",
+	  "image" : "https://www.pngitem.com/pimgs/m/137-1370168_professional-clipart-female-avatar-circle-hd-png-download.png"
+	},
+	{
+	  "id": 3,
+	  "Name": "DR. Sabina Akhtar",
+	  "Email": "sabina.buic@bahria.pk",
+	  "Qualification": "Software Engineering",
+	  "ResearchArea": "Distributed Algorithms, Formula Methods, Model Checking",
+	  "ProffessorAt":"Bahria University",
+	  "Location": "Islamabad",
+	  "image" : "https://www.pngitem.com/pimgs/m/137-1370168_professional-clipart-female-avatar-circle-hd-png-download.png"
+	},
+	{
+	  "id": 4,
+	  "Name": "DR. Momina Moetesum",
+	  "Email": "momina.buic@bahria.pk",
+	  "Qualification": "Computer Science",
+	  "ResearchArea": "Deep Learning, Digital Image Processing",
+	  "ProffessorAt": "Bahria University",
+	  "Location": "Islamabad",
+	  "image" : "https://www.pngitem.com/pimgs/m/137-1370168_professional-clipart-female-avatar-circle-hd-png-download.png"
+	},
+	{
+	  "id": 5,
+	  "Name": "DR. Fatima Khalique",
+	  "Email": "fkhalique.buic@bahria.pk",
+	  "Qualification": "Software Engineering, Computer Science",
+	  "ResearchArea": "Data Science, Machine Learning, Health Informatic",
+	  "ProffessorAt": "Bahria University",
+	  "Location": "Islamabad",
+	  "image" : "https://www.pngitem.com/pimgs/m/137-1370168_professional-clipart-female-avatar-circle-hd-png-download.png"
+	},
+	{
+	  "id": 6,
+	  "Name": "DR. Erum Ashraf",
+	  "Email": "sabina.buic@bahria.pk",
+	  "Qualification": "Software Engineering",
+	  "ResearchArea": "Software Engineering",
+	  "ProffessorAt": "Bahria University",
+	  "Location": "Islamabad",
+	  "image" : "https://www.pngitem.com/pimgs/m/137-1370168_professional-clipart-female-avatar-circle-hd-png-download.png"
+	},
+	{
+	  "id": 7,
+	  "Name": "DR. Maryam Khalid Multani",
+	  "Email": "maryam.buic@bahria.pk",
+	  "Qualification": "Internet of Things, Network Technology, Computer Software Engineering",
+	  "ResearchArea": "Internet of Things, Networking",
+	  "ProffessorAt": "Bahria University",
+	  "Location": "Islamabad",
+	  "image" : "https://www.pngitem.com/pimgs/m/137-1370168_professional-clipart-female-avatar-circle-hd-png-download.png"
+	},
+	{
+	  "id": 8,
+	  "Name": "DR. Anum Kaleem",
+	  "Email": "anumkaleem.buic@bahria.pk",
+	  "Qualification": "Software Engineering",
+	  "ResearchArea": "Software Engineering",
+	  "Proffessor at": "Bahria University",
+	  "Location": "Islamabad",
+	  "image" : "https://www.pngitem.com/pimgs/m/137-1370168_professional-clipart-female-avatar-circle-hd-png-download.png"
+	},
+	{
+	  "id": 9,
+	  "Name": "DR. Umarah Qaseem",
+	  "Email": "umarahqaseem.buic@bahria.pk",
+	  "Qualification": "Robotic and Intelligent Machine Engineering, Computer Science",
+	  "ResearchArea": "Robotic, Deep Learning, Computer Vision, Natural Language Processing, Artifical Intelligence",
+	  "ProffessorAt":"Bahria University",
+	  "Location": "Islamabad",
+	  "image" : "https://www.pngitem.com/pimgs/m/137-1370168_professional-clipart-female-avatar-circle-hd-png-download.png"
+	},
+	{
+	  "id": 10,
+	  "Name": "DR. Sabira Feroz",
+	  "Email": "sabira.buic@bahria.pk",
+	  "Qualification": "Computer Science, Information Technology",
+	  "ResearchArea": "Software Engineering, Agile methodology and Regression Testing",
+	  "ProffessorAt": "Bahria University",
+	  "Location": "Islamabad",
+	  "image" : "https://www.pngitem.com/pimgs/m/137-1370168_professional-clipart-female-avatar-circle-hd-png-download.png"
+	},
+	{
+	  "id": 11,
+	  "Name": "DR. Helen Magill White",
+	  "Email": "HeleMagillWhite@gmail.com",
+	  "Qualification": "PHD In Computer Science",
+	  "ResearchArea": "Software Engineering",
+	  "ProffessorAt":"Boston University",
+	  "Location": "Boston",
+	  "image" : "https://www.pngitem.com/pimgs/m/137-1370168_professional-clipart-female-avatar-circle-hd-png-download.png"
+	},
+	{
+	  "id": 12,
+	  "Name": "DR. Seahr Zeast",
+	  "Email": "drseahrzeast@gmail.com",
+	  "Qualification": "PHD In Information Technology",
+	  "ResearchArea": "Software Engineering",
+	  "ProffessorAt": "Bahria University",
+	  "Location": "Islamabad",
+	  "image" : "https://www.pngitem.com/pimgs/m/137-1370168_professional-clipart-female-avatar-circle-hd-png-download.png"
+	},
+	{
+	  "id": 13,
+	  "Name": "DR. Dang Chie Oanh",
+	  "Email": "drdangchieoanh@gmail.com",
+	  "Qualification": "PHD In Project Management",
+	  "ResearchArea": "Software Engineering",
+	  "ProffessorAt": "Boston University",
+	  "Location": "Boston",
+	  "image" : "https://www.pngitem.com/pimgs/m/137-1370168_professional-clipart-female-avatar-circle-hd-png-download.png"
+	},
+	{
+	  "id": 14,
+	  "Name": "DR. Marie Roth",
+	  "Email": "drmarieroth@gmail.com",
+	  "Qualification": "PHD In Management Science",
+	  "ResearchArea": "Software Engineering",
+	  "ProffessorAt": "University of London",
+	  "Location": "London",
+	  "image" : "https://www.pngitem.com/pimgs/m/137-1370168_professional-clipart-female-avatar-circle-hd-png-download.png"
+	},
+		{
+	  "id": 15,
+	  "Name": "DR. Sue Cowley",
+	  "Email": "drsuecowley@gmail.com",
+	  "Qualification": "PHD In Software Engineering",
+	  "ResearchArea": "Software Engineering",
+	  "ProffessorAt": "SZABIST",
+	  "Location": "Islamabad",
+	  "image" : "https://www.pngitem.com/pimgs/m/137-1370168_professional-clipart-female-avatar-circle-hd-png-download.png"
+	},
+	{
+	  "id": 16,
+	  "Name": "DR. Starr Sackstein",
+	  "Email": "StarrSackstein@gmail.com",
+	  "Qualification": "PHD In Computer Science",
+	  "ResearchArea": "Software Engineering",
+	  "ProffessorAt":"Boston University",
+	  "Location": "Boston",
+	  "image" : "https://www.pngitem.com/pimgs/m/137-1370168_professional-clipart-female-avatar-circle-hd-png-download.png"
+	},
+	{
+	  "id": 17,
+	  "Name": "DR. Annie Brock",
+	  "Email": "AnnieBrock@gmail.com",
+	  "Qualification": "PHD In Information Technology",
+	  "ResearchArea": "Software Engineering",
+	  "Proffessor at": "Bahria University",
+	  "Location": "Islamabad",
+	  "image" : "https://www.pngitem.com/pimgs/m/137-1370168_professional-clipart-female-avatar-circle-hd-png-download.png"
+	},
+	{
+	  "id": 18,
+	  "Name": "DR. Adjima Thaitrong",
+	  "Email": "AdjimaThaitrong@gmail.com",
+	  "Qualification": "PHD In Project Management",
+	  "ResearchArea": "Software Engineering",
+	  "ProffessorAt": "Boston University",
+	  "Location": "Boston",
+	  "image" : "https://www.pngitem.com/pimgs/m/137-1370168_professional-clipart-female-avatar-circle-hd-png-download.png"
+	},
+	{
+	  "id": 19,
+	  "Name": "DR. Hanan Al Hroub",
+	  "Email": "HananAlHroub@gmail.com",
+	  "Qualification": "PHD In Management Science",
+	  "ResearchArea": "Software Engineering",
+	  "ProffessorAt":"University of London",
+	  "Location": "London",
+	  "image" : "https://www.pngitem.com/pimgs/m/137-1370168_professional-clipart-female-avatar-circle-hd-png-download.png"
+	},
+	{
+	  "id": 20,
+	  "Name": "DR. Sumaira Kausar",
+	  "Email": "sumairakausar.buic@bahria.pk",
+	  "Qualification": "Pattern Classification, Pattern Classification and Image Analysis, Computer Science",
+	  "ResearchArea": "Machine Learning, Pattern recognition, Image Analysis, Artifical Intelligence",
+	  "ProffessorAt": "Bahria University",
+	  "Location": "Islamabad",
+	  "image" : "https://www.pngitem.com/pimgs/m/137-1370168_professional-clipart-female-avatar-circle-hd-png-download.png"
+	}
+  ]
+}
