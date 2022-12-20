@@ -60,10 +60,10 @@ const SignUp = () => {
   const [student, setStudent] = useState(false);
   const [checked, setChecked] = useState('');
   const [buttonPressed, setButtonPressed] = useState(false);
-  const currentUserskills = async () => {
-    await AsyncStorage.setItem('skills', additionalSkill);
-    console.log('Skls: ', additionalSkill);
-  };
+  // const currentUserskills = async () => {
+  //   await AsyncStorage.setItem('skills', additionalSkill);
+  //   console.log('Skls: ', additionalSkill);
+  // };
 
   useEffect(async () => {
     // await AsyncStorage.clear();
@@ -101,7 +101,7 @@ const SignUp = () => {
       });
 
     const currentUserskills = async () => {
-      await AsyncStorage.setItem('skills', additionalSkill);
+      await AsyncStorage.setItem('jObslookingfor', additionalSkill);
       console.log(additionalSkill);
     };
     const currentUserQualification = async () => {

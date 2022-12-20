@@ -119,30 +119,42 @@ function Home(props) {
         }}
         data={filterData}
         renderItem={({item, index}) => (
-          <TouchableOpacity
-            style={styles.styleContainer}
-            onPress={props.onPress}
-            activeOpacity={1}>
-            <Image
-              source={item.src}
-              resizeMode="stretch"
-              style={{
-                width: 300,
-                height: 130,
-                alignSelf: 'center',
-                overflow: 'hidden',
+          console.log('item.name', item.name),
+          (
+            <TouchableOpacity
+              style={styles.styleContainer}
+              onPress={() => {
+                if (item.name == 'Jobs') {
+                  props.navigation.navigate('BottomNavigation', {
+                    screen: 'MyJobs',
+                    params: {
+                      index: 1,
+                    },
+                  });
+                }
               }}
-            />
-            <Text
-              style={{
-                textAlign: 'center',
-                marginTop: 10,
-                marginBottom: 10,
-                fontWeight: 'bold',
-              }}>
-              {item.name}
-            </Text>
-          </TouchableOpacity>
+              activeOpacity={1}>
+              <Image
+                source={item.src}
+                resizeMode="stretch"
+                style={{
+                  width: 300,
+                  height: 130,
+                  alignSelf: 'center',
+                  overflow: 'hidden',
+                }}
+              />
+              <Text
+                style={{
+                  textAlign: 'center',
+                  marginTop: 10,
+                  marginBottom: 10,
+                  fontWeight: 'bold',
+                }}>
+                {item.name}
+              </Text>
+            </TouchableOpacity>
+          )
         )}
       />
     </>

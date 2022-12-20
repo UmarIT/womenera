@@ -16,7 +16,7 @@ import chat from './chat';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import SearchBar from '../components/CustomSearchBar';
 import Home from './Home';
-
+import MyJobs from './MyJobs';
 const Tab = createBottomTabNavigator();
 
 const BottomNavigation = () => {
@@ -34,6 +34,9 @@ const BottomNavigation = () => {
           if (route.name == 'Home') {
             activeIcon = 'home';
             InactiveIcon = 'home-outline';
+          } else if (route.name == 'MyJobs') {
+            activeIcon = 'search';
+            InactiveIcon = 'search-outline';
           } else if (route.name == 'Notifications') {
             activeIcon = 'notifications';
             InactiveIcon = 'notifications-outline';
@@ -72,6 +75,22 @@ const BottomNavigation = () => {
         name="Home"
         options={{
           title: 'Home',
+          headerStyle: {
+            backgroundColor: '#be7df0',
+            headerTitleAlign: 'center',
+          },
+          headerTintColor: '#fff',
+          headerTitleStyle: {
+            fontWeight: 'bold',
+          },
+          headerShown: false,
+        }}
+      />
+      <Tab.Screen
+        component={MyJobs}
+        name="MyJobs"
+        options={{
+          title: 'MyJobs',
           headerStyle: {
             backgroundColor: '#be7df0',
             headerTitleAlign: 'center',
