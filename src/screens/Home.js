@@ -18,6 +18,7 @@ import CustomHeader from '../components/CustomHeader';
 import CustomAvatar from '../components/CustomAvatar';
 import {hp, wp} from '../util';
 function Home(props) {
+  console.log('props', props);
   //   const styles = useThemeAwareObject(createStyles);
   const [searchText, setSearchText] = useState('');
   const [loading, setLoading] = useState(true);
@@ -129,6 +130,7 @@ function Home(props) {
                     screen: 'MyJobs',
                     params: {
                       index: 1,
+                      skills: props?.route?.params?.additionalSkill,
                     },
                   });
                 }

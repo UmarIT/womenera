@@ -55,7 +55,7 @@ const SignUp = () => {
   // const [password, setpassword] = useState('');
   // const [fullname, setFullName ]  = useState('');
   // const [qualification, setQualification ]  = useState('');
-  // const [additionalSkill, setAdditionalSkill ]  = useState('');
+  const [additionalSkill, setAdditionalSkill] = useState('');
   const [expert, setExpert] = useState(false);
   const [student, setStudent] = useState(false);
   const [checked, setChecked] = useState('');
@@ -218,6 +218,7 @@ const SignUp = () => {
           touched,
           isValid,
           errors,
+          setFieldValue,
         }) => (
           <View style={styles.container}>
             <StatusBar backgroundColor="#be7df0" barstyle="light-content" />
@@ -351,7 +352,11 @@ const SignUp = () => {
                   placeholder="Enter your Skills"
                   style={styles.textInput}
                   autoCapitalize="none"
-                  onChangeText={handleChange('additionalSkill')}
+                  onChange={e => setAdditionalSkill(e.nativeEvent.text)}
+                  onChangeText={value => {
+                    setFieldValue('additionalSkill', value);
+                    setAdditionalSkill(value);
+                  }}
                   onBlur={handleBlur('additionalSkill')}
                   value={values.additionalSkill}></TextInput>
                 {errors.additionalSkill && touched.additionalSkill && (
@@ -399,9 +404,15 @@ const SignUp = () => {
                 onPress={() => {
                   handleSubmit('email');
                   setButtonPressed(true);
+                  console.log('additionalSkill', additionalSkill);
                   {
                     checked == 'second' && buttonPressed ? (
-                      navigation.navigate('BottomNavigation')
+                      navigation.navigate('BottomNavigation', {
+                        screen: 'Home',
+                        params: {
+                          additionalSkill: additionalSkill,
+                        },
+                      })
                     ) : checked == 'first' && buttonPressed ? (
                       navigation.navigate('BottomNavigationExpert')
                     ) : (

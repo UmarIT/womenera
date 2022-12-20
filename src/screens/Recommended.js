@@ -6,12 +6,37 @@ import Icons from 'react-native-vector-icons/Fontisto';
 import IconFont from 'react-native-vector-icons/FontAwesome';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import {useEffect} from 'react';
-const Recommended = () => {
+const Recommended = props => {
+  console.log('props========>', props.route.params.skills);
   const [skills, setskills] = useState();
 
   useEffect(() => {
-    getskills();
+    setskills(props.route.params.skills);
+    getrecommendations();
   }, []);
+  const getrecommendations = async skills => {
+    console.log('skills', skills);
+    const response = await fetch('http://10.0.2.2:8000/recommendJobs', {
+      method: 'POST',
+      headers: {
+        Accept: 'application/json',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        skills,
+      }),
+    })
+      .then(async Response => {
+        const data = await Response.json();
+        console.log('Response from job recommendation server: ', Response);
+        console.log('outputs: ', data);
+        setArraySkills(data.result.companies);
+        setJobtitle(data.result.jobTitles);
+      })
+      .catch(error => {
+        console.log('Error in calling ml api: ', error);
+      });
+  };
 
   async function getskills() {
     const userSkills = await AsyncStorage.getItem('jObslookingfor');

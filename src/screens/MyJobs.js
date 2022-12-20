@@ -13,6 +13,7 @@ import Recommended from './Recommended';
 import All from './All';
 
 const MyJobs = props => {
+  console.log('props', props);
   const [index, setIndex] = useState(0);
   const [routes] = useState([
     {key: 'first', title: 'Posted'},
