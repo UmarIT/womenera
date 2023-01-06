@@ -1,7 +1,7 @@
 import React from 'react';
 import {StyleSheet} from 'react-native';
 import {Input} from 'react-native-elements';
-import {useThemeAwareObject} from '../theme';
+
 import {hp, wp} from '../util';
 
 const CustomInputField = ({
@@ -24,32 +24,6 @@ const CustomInputField = ({
   numberOfLines,
   inputStyle,
 }) => {
-  const createStyles = theme => {
-    const themeStyles = StyleSheet.create({
-      inputContainer: {
-        borderWidth: 1,
-        borderColor: theme.color.secondaryColor,
-        backgroundColor: theme.color.secondaryColor,
-        borderRadius: theme.borders.radius1,
-        paddingHorizontal: wp(2),
-        height: hp(7),
-      },
-      container: {
-        marginTop: hp(0.8),
-        width: wp(96.6),
-        alignSelf: 'center',
-        height: hp(7),
-      },
-      textStyle: {
-        fontSize: theme.size.small,
-        color: '#000000',
-        // fontFamily: theme.family.medium,
-      },
-      placeholderColor: '#aaa',
-    });
-    return themeStyles;
-  };
-  const styles = useThemeAwareObject(createStyles);
   return (
     <Input
       inputStyle={inputStyle}
@@ -76,3 +50,25 @@ const CustomInputField = ({
 };
 
 export default CustomInputField;
+const styles = StyleSheet.create({
+  inputContainer: {
+    borderWidth: 1,
+    borderColor: '#F5F5F5',
+    backgroundColor: '#F5F5F5',
+    borderRadius: hp(2),
+    paddingHorizontal: wp(2),
+    height: hp(7),
+  },
+  container: {
+    marginTop: hp(0.8),
+    width: wp(96.6),
+    alignSelf: 'center',
+    height: hp(7),
+  },
+  textStyle: {
+    fontSize: hp(1.7),
+    color: '#000000',
+    // fontFamily: theme.family.medium,
+  },
+  placeholderColor: '#aaa',
+});

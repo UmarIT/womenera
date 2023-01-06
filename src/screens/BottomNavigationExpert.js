@@ -77,6 +77,7 @@ const BottomNavigationExpert = () => {
           headerTitleStyle: {
             fontWeight: 'bold',
           },
+          headerShown: false,
         }}
       />
       <Tab.Screen

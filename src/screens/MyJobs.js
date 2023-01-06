@@ -10,7 +10,6 @@ import {Image} from 'react-native';
 import {hp, wp} from '../util/index';
 import PostedJob from './PostedJob';
 import Recommended from './Recommended';
-import All from './All';
 
 const MyJobs = props => {
   console.log('props', props);
@@ -18,7 +17,6 @@ const MyJobs = props => {
   const [routes] = useState([
     {key: 'first', title: 'Posted'},
     {key: 'second', title: 'Recommended'},
-    {key: 'third', title: 'All'},
   ]);
 
   useEffect(() => {
@@ -28,11 +26,10 @@ const MyJobs = props => {
   }, []);
   const FirstRoute = () => <PostedJob {...props} />;
   const SecondRoute = () => <Recommended {...props} />;
-  const ThirdRoute = () => <All {...props} />;
+
   const renderScene = SceneMap({
     first: FirstRoute,
     second: SecondRoute,
-    third: ThirdRoute,
   });
 
   const renderTabBar = props => {

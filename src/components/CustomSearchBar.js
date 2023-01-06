@@ -1,11 +1,8 @@
 import React from 'react';
 import {StyleSheet} from 'react-native';
 import {SearchBar} from 'react-native-elements';
-import {useThemeAwareObject} from '../theme';
 
 function CustomSearchBar(props) {
-
-
   return (
     <SearchBar
       containerStyle={props.containerStyle}

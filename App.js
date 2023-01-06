@@ -23,6 +23,7 @@ import Myexperts from './src/screens/Myexperts';
 import RecommendedExperts from './src/screens/RecommendedExperts';
 import BottomNavigationExpert from './src/screens/BottomNavigationExpert';
 import Jobs from './src/screens/Jobs';
+import Addjobs from './src/screens/Addjobs';
 const Stack = createNativeStackNavigator();
 const App = () => {
   const [showSplashScreen, setShowSplashScreen] = useState(true);
@@ -102,6 +103,21 @@ const App = () => {
           name="Jobs"
           options={{
             title: 'Jobs',
+            headerStyle: {
+              backgroundColor: '#be7df0',
+              headerTitleAlign: 'center',
+            },
+            headerTintColor: '#fff',
+            headerTitleStyle: {
+              fontWeight: 'bold',
+            },
+          }}
+        />
+        <Stack.Screen
+          component={Addjobs}
+          name="Addjobs"
+          options={{
+            title: 'Addjobs',
             headerStyle: {
               backgroundColor: '#be7df0',
               headerTitleAlign: 'center',

@@ -1,5 +1,6 @@
 import React from 'react';
 import {StyleSheet, Text} from 'react-native';
+import {hp} from '../util';
 
 const TextField = ({children, style, numberOfLines}) => {
   return (
@@ -14,9 +15,9 @@ const TextField = ({children, style, numberOfLines}) => {
 
 export default TextField;
 const styles = StyleSheet.create({
-textStyle: {
-    color: theme.color.white,
-    fontFamily: theme.family.regular,
-    fontSize: theme.size.small,
+  textStyle: {
+    color: 'white',
+
+    fontSize: hp(2),
   },
-})
+});
